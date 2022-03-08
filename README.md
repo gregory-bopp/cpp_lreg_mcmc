@@ -60,12 +60,12 @@ Allowed options:
   -z [ --seed ] arg (=1)                seed for pseudorandom number generator
   -n [ --n_mcmc ] arg (=10000)          number of mcmc iterations to run
   -t [ --thin_int ] arg (=100)          mcmc thinning interval
-  -x [ --x_filename ] arg (=data/X.dat) name of X data file in csv format
-  -y [ --y_filename ] arg (=data/y.dat) name of y data file in csv format
-  -p [ --post_beta_filename ] arg (=data/posterior_beta.dat)
+  -x [ --x_filename ] arg (=data/X.csv) name of X data file in csv format
+  -y [ --y_filename ] arg (=data/y.csv) name of y data file in csv format
+  -p [ --post_beta_filename ] arg (=data/posterior_beta.csv)
                                         name of posterior beta samples data 
                                         files in csv format
-  -p [ --post_sigma_sq_filename ] arg (=data/posterior_sigma_sq.dat)
+  -p [ --post_sigma_sq_filename ] arg (=data/posterior_sigma_sq.csv)
                                         name of posterior sigma_sq samples data
                                         files in csv format
   --sigma_sq_beta arg (=10)             beta normal prior variance
